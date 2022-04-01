@@ -1,0 +1,288 @@
+{
+    "Beginner": {
+        "a": [
+            {
+                "1": 
+                    {
+                        "1": {
+                            "type": "Anterior Lower (Squat)",
+                            "name": "Alt. Single Leg Box Squats (High Box)",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/alternating-single-leg-high-box-squat.mp4"
+                        },
+                        "2": {
+                            "type": "Anterior Lower (Squat)",
+                            "name": "1 1/2 Bottomed Out Squats",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/one-and-a-half-bottomed-out-squats.mp4"
+                        },
+                        "3": {
+                            "type": "Anterior Lower (Squat)",
+                            "name": "Jump Squats",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/jump-squat.mp4"
+                        }
+                    }
+                
+            },
+            {
+                "2": 
+                    {
+                        "1": {
+                            "type": "Upper Push",
+                            "name": "Power Pushaways",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/power-pushaways.mp4"
+                        },
+                        "2": {
+                            "type": "Upper Push)",
+                            "name": "Knee Rotational Pushups",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/rotational-pushup-from-knees.mp4"
+                        },
+                        "3": {
+                            "type": "Upper Push",
+                            "name": "Knee Cobra Pushups",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/cobra-pushups-from-knees.mp4"
+                        }
+                    }
+                
+            },
+            {
+                "3": 
+                    {
+                        "1": {
+                            "type": "Posterior Lower (Hinge)",
+                            "name": "Alt. Heel Touch Squats (Kickstand)",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/alternating-heel-touch-kickstand-squat.mp4"
+                        },
+                        "2": {
+                            "type": "Posterior Lower (Hinge)",
+                            "name": "Alt. Sprinter Lunges",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/alternating-sprinter-lunge.mp4"
+                        },
+                        "3": {
+                            "type": "Posterior Lower (Hinge)",
+                            "name": "Plyo Sprinter Lunges",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/plyo-sprinter-lunges-high.mp4"
+                        }
+                    }
+                
+            },
+            {
+                "4": 
+                    {
+                        "1": {
+                            "type": "Upper Pull",
+                            "name": "Seated Pullups",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/seated-pullup.mp4"
+                        },
+                        "2": {
+                            "type": "Upper Pull",
+                            "name": "Bodyweight Sliding Pulldowns",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/sliding-pulldown.mp4"
+                        },
+                        "3": {
+                            "type": "Upper Pull",
+                            "name": "Inverted Chin Curls",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/inverted-chin-curl.mp4"
+                        }
+                    }
+                
+            },
+            {
+                "5": 
+                    {
+                        "1": {
+                            "type": "Abs",
+                            "name": "Reverse Corkscrews",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/reverse-corkscrew.mp4"
+                        },
+                        "2": {
+                            "type": "Abs",
+                            "name": "Black Widow Knee Slides",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/black-widow-knee-slde.mp4"
+                        },
+                        "3": {
+                            "type": "Abs",
+                            "name": "Levitation Crunches",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/levitation-crunches.mp4"
+                        }
+                    }
+                
+            },
+            {
+                "6": 
+                    {
+                        "1": {
+                            "type": "Corrective",
+                            "name": "Angels and Devils",
+                            "info": "",
+                            "helpLink": "",
+                            "videoLink": "https://athleanx.com/wp-content/uploads/2020/03/angel-and-devil-exercise.mp4"
+                        }
+                    }
+                
+            }
+        ],
+        "b": [
+            {
+                "1": 
+                    {
+                        "1": {
+                            "type": "Posterior Lower (Hinge)",
+                            "name": "Slick Floor Bridge Curls",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "2": {
+                            "type": "Posterior Lower (Hinge)",
+                            "name": "Long Leg Marches",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "3": {
+                            "type": "Posterior Lower (Hinge)",
+                            "name": "High Hip Bucks",
+                            "info": "",
+                            "helpLink": ""
+                        }
+                    }
+                
+            },
+            {
+                "2": 
+                    {
+                        "1": {
+                            "type": "Upper Push",
+                            "name": "Knee Decline to Flat Pushups",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "2": {
+                            "type": "Upper Push)",
+                            "name": "Knee BW Side Laterals",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "3": {
+                            "type": "Upper Push",
+                            "name": "BW Triceps Extensions",
+                            "info": "",
+                            "helpLink": ""
+                        }
+                    }
+                
+            },
+            {
+                "3": 
+                    {
+                        "1": {
+                            "type": "Anterior Lower (Lunge)",
+                            "name": "Alt. Crossover Step Ups",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "2": {
+                            "type": "Anterior Lower (Lunge)",
+                            "name": "Alt. Reverse Lunges",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "3": {
+                            "type": "Anterior Lower (Lunge)",
+                            "name": "Split Squat Jumps",
+                            "info": "",
+                            "helpLink": ""
+                        }
+                    }
+                
+            },
+            {
+                "4": 
+                    {
+                        "1": {
+                            "type": "Upper Pull",
+                            "name": "Seated Chinups",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "2": {
+                            "type": "Upper Pull",
+                            "name": "Inverted Rows",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "3": {
+                            "type": "Upper Pull",
+                            "name": "Back Widows",
+                            "info": "",
+                            "helpLink": ""
+                        }
+                    }
+                
+            },
+            {
+                "5": 
+                    {
+                        "1": {
+                            "type": "Abs",
+                            "name": "Ab Halos",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "2": {
+                            "type": "Abs",
+                            "name": "V-Up Tucks",
+                            "info": "",
+                            "helpLink": ""
+                        },
+                        "3": {
+                            "type": "Abs",
+                            "name": "Sit-Up Elbow Thrusts",
+                            "info": "",
+                            "helpLink": ""
+                        }
+                    }
+                
+            },
+            {
+                "6": 
+                    {
+                        "1": {
+                            "type": "Corrective",
+                            "name": "Reverse Hypers",
+                            "info": "",
+                            "helpLink": ""
+                        }
+                    }
+                
+            }
+        ]
+    }
+}
