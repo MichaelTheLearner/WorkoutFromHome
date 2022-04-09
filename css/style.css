@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
      box-sizing: border-box;
+     text-decoration: none;
 }
 
 /* Clear fix hack */
@@ -30,7 +31,7 @@ body {
      background: black;
 }
 main {
-     margin: 1% 0;
+     margin: 1% 2%;
      display:flex;
      flex-flow:row wrap;
      align-content:center;
@@ -53,7 +54,7 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 .hidden{
-     display:none;
+     display:none !important;
 }
 .hideButKeepSpace{
      visibility: hidden;
@@ -63,6 +64,15 @@ footer {
 }
 .flex{
   display:flex;
+}
+
+video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);        
 }
 
 .neonContainer {   
@@ -230,29 +240,22 @@ footer {
         
    }
    #timer {
-     font-size: 5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 4rem;
    }
-   #timerSection{
-        display: flex;
-        flex-flow: row;
-   }
+   
 
    #exerciseSection {
      display: flex;
      flex-direction: column;
    }
 
-   #startBtn{
-        font-size: 4rem;
-   }
-
-   #pauseBtn{
-        font-size: 4rem;
-   }
-   
    #mainTitle{
         flex: 2 0 0;
    }
+
    #dayChoice{
         display: flex;
         flex: 1 0 0;
@@ -261,6 +264,7 @@ footer {
    .dashedBorder{
         border: 5px solid white;
    }
+
    .center {
      display: flex;
      justify-content: center;
@@ -277,158 +281,13 @@ footer {
         flex-flow: row;
    }
 
-
-   /* Buttons */
-   a, .btn
-{
-  position: relative;
-  display: inline-block;
-  padding: 25px 30px;
-  margin: 0 20px;
-  color: #03e9f4;
-  font-size: 24px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 0.5s;
-  letter-spacing: 4px;
-  /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); */
-}
-a:hover, .btn:hover
-{
-  background: #03e9f4;
-  color: #050801;
-  box-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 200px #03e9f4;
-}
-a span
-{
-  position: absolute;
-  display: block;
-}
-a span:nth-child(1)
-{
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
-  animation: animate1 1s linear infinite;
-}
-@keyframes animate1
-{
-  0%
-  {
-    left: -100%;
-  }
-  50%, 100%
-  {
-    left: 100%;
-  }
-}
-a span:nth-child(2)
-{
-  top: -100px;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, #03e9f4);
-  animation: animate2 1s linear infinite;
-  animation-delay: 0.25s;
-}
-@keyframes animate2
-{
-  0%
-  {
-    top: -100%;
-  }
-  50%, 100%
-  {
-    top: 100%;
-  }
-}
-a span:nth-child(3)
-{
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #03e9f4);
-  animation: animate3 1s linear infinite;
-  animation-delay: 0.5s;
-}
-@keyframes animate3
-{
-  0%
-  {
-    right: -100%;
-  }
-  50%, 100%
-  {
-    right: 100%;
-  }
-}
-a span:nth-child(4)
-{
-  bottom: -100%;
-  left: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #03e9f4);
-  animation: animate4 1s linear infinite;
-  animation-delay: 0.75s;
-}
-@keyframes animate4
-{
-  0%
-  {
-    bottom: -100%;
-  }
-  50%, 100%
-  {
-    bottom: 100%;
-  }
-}
-
-
 label {
      position: relative;
-     display: inline-block;
-     padding: 25px 30px;
-     margin: 40px 0;
-     color: #03e9f4;
-     text-decoration: none;
-     text-transform: uppercase;
-     transition: 0.5s;
+     display: inline-block;     
+     text-transform: uppercase;     
      letter-spacing: 4px;
-     overflow: hidden;
-     margin-right: 50px;
-   }
-   
-   label:hover, *:checked {
-     background: #03e9f4;
-     color: #050801;
-     box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
-     /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); */
-   }
-   
-   a:nth-child(1) {
-     filter: hue-rotate(270deg);
-   }
-   
-   a:nth-child(2) {
-     filter: hue-rotate(110deg);
-   }
- label {
-     position: relative;
-     display: inline-block;
-     text-align: center;
- }
-/* #playlist {
-  height: 5%;
-} */
+   } 
+
  #playlist i {
    font-size: 3rem;
  }
@@ -449,4 +308,10 @@ label {
   padding-top: 20px;
   text-align: center;
    color: gray;
+ }
+ .wrap {
+   flex-wrap: wrap;
+ }
+ #infoSection {
+   margin-top: -130px;
  }
