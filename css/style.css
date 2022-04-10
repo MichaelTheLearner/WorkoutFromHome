@@ -49,6 +49,20 @@ header {
 footer {
 
 }
+label {
+  position: relative;
+  display: inline-block;     
+  text-transform: uppercase;     
+  letter-spacing: 4px;
+} 
+video {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);        
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -66,17 +80,10 @@ footer {
   display:flex;
 }
 
-video {
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);        
-}
+
 
 .neonContainer {   
-     
+     margin: 1% 3% 1% 3%;
      padding-top: 1%;
      padding-bottom: 1%;
      font-size: 100px;
@@ -281,12 +288,7 @@ video {
         flex-flow: row;
    }
 
-label {
-     position: relative;
-     display: inline-block;     
-     text-transform: uppercase;     
-     letter-spacing: 4px;
-   } 
+
 
  #playlist i {
    font-size: 3rem;
@@ -315,3 +317,26 @@ label {
  #infoSection {
    margin-top: -130px;
  }
+
+ @media (max-width: 600px){
+
+  #mainTitle{
+    display: none !important;
+  }
+  #playlist {
+    display: none !important;
+}
+#infoSection {
+  display: none;
+}
+
+	#playlist {
+        display: none !important;
+    }
+	main{
+		display:block;
+    margin: 0;
+	}
+ 
+
+}

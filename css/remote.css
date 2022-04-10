@@ -40,3 +40,16 @@
   .remote .redBackground {
     background: rgba(215, 9, 9, 0.5)
   }
+
+  @media (max-width: 600px){
+  .remote {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .fake {
+    display:none !important;
+  }
+  main {
+    max-height: 100vh;
+  }
+}

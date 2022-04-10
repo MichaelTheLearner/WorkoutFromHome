@@ -18,3 +18,13 @@
     box-shadow:inset 0px 0px 0px 10px #bdd4e7;
     
 }
+@media (max-width: 600px){
+    .alarmClock {
+        position:initial;
+        display:block !important;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+}
